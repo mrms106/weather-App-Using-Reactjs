@@ -21,7 +21,7 @@ export default function SearchBox({updateInfo}){
      let result={
         city:city,
         temp:jsonresponce.main.temp,
-        temMin:jsonresponce.main.temp_min,
+        wind:jsonresponce.wind.speed,
         tempMax:jsonresponce.main.temp_max,
         humidity:jsonresponce.main.humidity,
         feelsLike:jsonresponce.main.feels_like,

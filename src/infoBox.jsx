@@ -35,7 +35,7 @@ export default function infoBox({info}){
                        
                         <p>Humidity={info.humidity}</p>
                         <p>Temprature={info.temp}&deg;C</p>
-                        <p>Min-Temp={info.temMin}&deg;C</p>
+                        <p>wind-speed={info.wind}km/h</p>
                         <p>Max-temp={info.tempMax}&deg;C</p>
                         <p>The weather can be described as <i>{info.weather}</i> feels like {info.feelsLike}&deg;C</p>
                     

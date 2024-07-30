@@ -7,7 +7,7 @@ export default function WeatherApp(){
         city:"coimbatore",
         feelsLike: "24.78",
         humidity: 90,
-        temMin: 21.88,
+        wind: 9.0,
         temp: 23.88,
         tempMax: 25.88,
         weather: "broken clouds"
